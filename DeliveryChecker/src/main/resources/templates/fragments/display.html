@@ -1,0 +1,45 @@
+
+
+<!DOCTYPE HTML>
+
+<html xmlns:th="http://www.thymeleaf.org" >
+<head>
+
+<title>header</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="stylesheet" href="/styles/style.css"/>
+</head>
+
+<body>
+
+<div class ="output" align="center" th:fragment="display">
+
+<table >
+
+<thead >
+<tr>
+<th>
+<label th:text="${numbertitle}" style = "font-weight:bold;"></label>
+</th>
+<th>
+<label th:text="${filedescription}" ></label>
+</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td th:text="${getresult.number}"></td>
+<td th:text="${filename}"></td>
+</tr>
+</tbody>
+</table>
+</div>
+
+<div>
+</div>
+    
+    
+    
+</body>
+</html>

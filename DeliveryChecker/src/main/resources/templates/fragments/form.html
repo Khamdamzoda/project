@@ -1,0 +1,28 @@
+
+<!DOCTYPE HTML>
+
+<html xmlns:th="http://www.thymeleaf.org" >
+<head>
+
+<title>header</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="stylesheet" href="/styles/style.css"/>
+</head>
+
+
+
+<body>
+
+<div class = "search" align = "center"  th:fragment="form">
+
+<form action="#"  th:action="@{/search}" method="GET" th:object="${getresult}" >
+    <div class="form"><p> <input type="text" th:field="*{number}"/></p> </div>
+    <div class="form"> <p> <input type ="submit" value="Ҷустуҷу"></p></div>
+</form>
+
+</div>
+    
+    
+    
+</body>
+</html>
