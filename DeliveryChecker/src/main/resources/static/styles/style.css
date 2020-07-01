@@ -2,8 +2,8 @@
 @charset "UTF-8";
 
 body{
-    background-color: #E5EFF0;
-    }
+    background-color: #F9FCFC;
+}
 
 .search div{
 text-align: center;
@@ -18,7 +18,7 @@ text-align: center;
   box-sizing: border-box;
   border: 1px solid black;
   border-radius: 4px;
-  padding-left:10px;
+  padding-left:14px;
 }
 
  input[type=submit] {
@@ -30,7 +30,7 @@ text-align: center;
   box-sizing: border-box;
   border: 1px solid black;
   border-radius: 4px;
-  background-color:  #E5EFF0;
+  background-color:  #F9FCFC;
 }
 
 input[type=submit]:hover {
@@ -65,7 +65,7 @@ font-weight:normal;
 padding-left:22px;
 text-align: center;
 font-family: "Times New Roman", Times, serif;
-padding-right: 35px;
+padding-right: 37px;
 }
 
 

@@ -65,7 +65,7 @@ public getResult() {
 
 public void search(String number) throws IOException {
 	
-Path path = Paths.get("\\\\172.30.1.1\\Shared\\DELIV_BACKUP\\");
+Path path = Paths.get("C:\\Users\\DELIVERY");
 
 Scanner scan  ; 
 
@@ -98,7 +98,7 @@ for(int i = 0; i<result.size(); i++) {
     	
     } else if (this.getFilename()==null) {
     	
-    	this.setFilename("ин рақам" + "\t" + "вуҷуд надорад");
+    	this.setFilename("рақам" + "\t" + "вуҷуд надорад");
     }
     
     scan.nextLine(); 
